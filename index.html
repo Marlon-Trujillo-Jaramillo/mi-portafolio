@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A professional portfolio showcasing my projects, skills, and contact information.">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation">
+            <button id="menu-toggle">☰</button>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>Hi, I'm a passionate web developer with expertise in front-end and back-end technologies.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <article>
+            <figure>
+                <img src="node-react-js.jpg" alt="Screenshot of Project 1">
+                <figcaption>Project 1 - A web application built with React and Node.js.</figcaption>
+            </figure>
+        </article>
+        <article>
+            <figure>
+                <img src="lenguajes_1.png" alt="Screenshot of Project 2">
+                <figcaption>Project 2 - A responsive portfolio website using HTML, CSS, and JavaScript.</figcaption>
+            </figure>
+        </article>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
